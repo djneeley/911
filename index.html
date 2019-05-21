@@ -1,10 +1,32 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <style>
+.container { 
+  height: 200px;
+  position: relative;
+  border: 3px solid green; 
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+</style>
+    
     <title>911</title>
   </head>
   <body>
-    <p style="text-align: center"><a onClick="randomimage()" href="">911</a></p>
+    <div class="container">
+  <div class="center">
+    <p><a onClick="randomimage()" href="">811</a></p>
+  </div>
+</div>
+    
     
     <script type="text/javascript">
       function randomimage(){
