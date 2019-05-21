@@ -5,3 +5,16 @@ body {
   flex-direction: column; // arrange items in column
   justify-content: center; // align vertically center
 }
+
+button {
+  background-color: #6495ED;
+  color: white;
+  padding: 16px 25px;
+  margin: 0 auto;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+  position: middle;
+}
